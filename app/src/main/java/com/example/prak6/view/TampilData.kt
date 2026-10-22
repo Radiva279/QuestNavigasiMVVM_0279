@@ -30,4 +30,9 @@ import com.example.prak6.R
 @Composable
 fun TampilData(
     onBackBtnClick: () -> Unit
-)
+){
+    val item = listOf(
+        Pair(stringResource(id = R.string.nama_lengkap), "Contoh Nama"),
+        Pair(stringResource(id = R.string.jenis_kelamin), "Laki-laki"),
+        Pair(stringResource(id = R.string.alamat), "Yogyakarta")
+    )}
